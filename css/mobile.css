@@ -1,4 +1,4 @@
-@media (max-width: 600px) {
+@media (max-width: 320px) {
     body {
         background-image: url("https://fondosmil.com/fondo/18821.jpg");
         background-repeat: repeat;
@@ -12,7 +12,11 @@
     li .sign-up-button, li .log-in-button {
         display: none;
     }
-    footer ul{
+    .user-interactions--section{
+        display: flex;
+        
+    }
+    footer {
         display: block;
         text-align: center;
     }
