@@ -1,0 +1,131 @@
+/*
+1. Posicionamiento
+2. Modelo de Caja
+3. Tipografía
+4. Visuales
+5. Otros
+*/
+:root {
+    /*paleta de colores*/
+    --columbia-blue: #c9f0ff;
+    --just-azure: #eafffd;
+    --cultured-pink: #efeff0;
+    --languid-lavander: #d5cad6;
+    --deep-taupe: #6b5e62;
+    --black: #282623;
+    --grey: #BABABA;
+    --off-white: #FAF8F7;
+    --white: #FFFFFF;
+    --pure-lagoon: #009897;
+    --chill-pink: #b87db5;
+}
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+    font-family: 'Oswald', sans-serif;
+}
+body {
+    background-image: url("https://fondosmil.com/fondo/18821.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #b1eaf0;
+   padding: 10px;
+}
+nav ul {
+    display: flex;
+}
+nav li {
+    list-style: none;
+    padding: 10px;
+   
+}
+nav a {
+    color: var(--black);
+    text-decoration: none;
+    font-size: 1.5rem;
+    
+}
+.nav-options {
+    display: flex;
+    padding-left: 100px;
+}
+.sign-up-button {
+    background-color: var(--pure-lagoon);
+    width: 100%;
+    padding: 10px;
+    font-size: 1.7rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 2px;
+    
+}
+.sign-up-button , .log-in-button  {
+    box-shadow: 2px 2px 2px var(--black);
+}
+.sign-up-button:hover {
+    background-color: #73bbba;
+}
+.log-in-button:hover {
+    background-color: #d5a6d3;
+}
+.log-in-button {
+    background-color: var(--chill-pink);
+    width: 100%;
+    padding: 10px;
+    font-size: 1.7rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 2px;
+    
+}
+.main_section  {
+    display: block;
+    text-align: center;
+    margin-left: 2%;
+    padding: 60px;
+    font-size: 7.5rem;
+    font-family: 'Oswald', sans-serif;
+    color: var(--black);
+    
+}
+.main_section--p {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 2.5rem;
+    font-weight: 200;
+    margin-top: -5%;
+    margin-left: 2%;
+    color: var(--white);
+    text-shadow: 2px 2px 2px var(--black);
+}
+.user-interactions--section {
+    
+    
+    width: 350px;
+    margin: 0 auto;
+    
+}
+.user-interactions--section a {
+    color: var(--black);
+    text-decoration: none;
+    display: block;
+    align-items: center;
+    text-align: center;
+    width: 350px;
+    box-shadow: 2px 2px 2px var(--black);
+    margin: 5%;
+}
