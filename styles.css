@@ -161,3 +161,9 @@ footer ul li a:hover{
     color: var(--grey);
 }
 
+@media (min-width: 1920px){
+    .main_section {
+        margin-top: 15%;
+    }
+}
+
