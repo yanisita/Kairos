@@ -44,8 +44,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-  
-   padding: 10px;
+    padding: 10px;
 }
 nav ul {
     display: flex;
@@ -97,8 +96,9 @@ nav a {
 .main_section  {
     display: block;
     text-align: center;
+    justify-content: center;
     margin-left: 2%;
-    padding: 60px;
+    padding: 5%;
     font-size: 7.5rem;
     font-family: 'Oswald', sans-serif;
     color: var(--black);
@@ -160,3 +160,4 @@ footer ul li a {
 footer ul li a:hover{
     color: var(--grey);
 }
+
