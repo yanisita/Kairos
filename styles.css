@@ -136,6 +136,7 @@ footer {
    
     position: absolute;
     bottom: 0;
+    height: 35px;
 }
 footer ul {
     display: flex;
@@ -153,7 +154,7 @@ footer ul li a {
     color: var(--white);
     text-shadow: 2px 2px 2px var(--black);
     text-decoration: none;
-    padding: 5%;
+    padding: 10%;
     font-weight: 400;
 }
 footer ul li a:hover{
