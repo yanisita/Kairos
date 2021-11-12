@@ -14,6 +14,9 @@
         display: flex;
         
     }
+    .main_section {
+       margin-top: 20%;
+    }
     footer {
        height: 50px;
         position: fixed;
