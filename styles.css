@@ -31,17 +31,20 @@
 html {
     font-size: 62.5%;
     font-family: 'Oswald', sans-serif;
+    background: rgb(205,63,63) no-repeat center center fixed;
+    background:  linear-gradient(297deg, rgba(205,63,63,1) 0%, rgba(93,162,219,1) 86%) no-repeat center center fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+
 }
-body {
-    background-image: url("https://fondosmil.com/fondo/18821.jpg");
-    background-repeat: no-repeat;
-    background-size: 100%;
-}
+
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #b1eaf0;
+  
    padding: 10px;
 }
 nav ul {

@@ -1,12 +1,10 @@
 @media (max-width: 600px) {
-    body {
-        background-image: url("https://fondosmil.com/fondo/18821.jpg");
-        background-repeat: repeat;
-    }
+    
     .Kairos_image {
         position: absolute;
         
-        margin-left: 30%;
+        left: calc(50% - 30px);
+        top: calc(50% + 10px);
     }
     
     li .sign-up-button, li .log-in-button {
@@ -17,7 +15,16 @@
         
     }
     footer {
+       height: 50px;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+    }
+    footer ul{
         display: block;
         text-align: center;
+       
+        
     }
   }
