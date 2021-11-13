@@ -167,3 +167,16 @@ footer ul li a:hover{
     }
 }
 
+.user-interactions--section input {
+    background-color: var(--off-white);
+    width: 100%;
+    padding: 10px;
+    font-size: 1.7rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 2px;
+    margin-left: 5%;
+    margin-bottom: 2%;
+    box-shadow: 2px 2px 2px var(--black);
+}
+
