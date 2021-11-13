@@ -11,7 +11,9 @@
         display: none;
     }
     .user-interactions--section{
-        /* display: flex; */
+       margin-right: 10%;
+       margin-left: -1.8%;
+      
         
     }
     .main_section {
