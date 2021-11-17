@@ -1,6 +1,6 @@
 @media (max-width: 600px) {
-    
-    .Kairos_image img {
+  
+    .Kairos_image {
      display: block;
      margin: auto;
     }
