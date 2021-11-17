@@ -9,17 +9,17 @@
     .nav_options {
         display: none;
     }
-    .user-interactions--section{
-       margin-right: 10%;
-       margin-left: -1.8%;
-      
-        
+    .user-interactions--section a{
+      margin: 0 auto;
+      margin-top: 20px;
+      padding: 5%;
+      width: 280px;
     }
     .main_section {
        margin-top: 20%;
     }
     footer {
-       height: 50px;
+        height: 50px;
         position: fixed;
         left: 0;
         bottom: 0;
