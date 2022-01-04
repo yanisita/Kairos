@@ -138,7 +138,7 @@ nav a {
     min-height: 250px;
     background-color: var(--off-white);
     border-radius: 2%;
-    padding: 2%;
+    padding: 1%;
     display: block;
     text-align: justify;
     align-self: center;
@@ -148,7 +148,7 @@ nav a {
 .condition-container p {
     font-size: 1.6rem;
     font-weight: lighter;
-    line-height: 30px;
+    line-height: 35px;
 }
 footer {
    

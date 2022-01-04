@@ -18,6 +18,14 @@
     .main_section {
        margin-top: 20%;
     }
+    .condition-container {
+        border-radius: 0%;
+    }
+    .condition-container h1,  .condition-container h2{
+        
+        text-align: center;
+        
+    }
     footer {
         height: 50px;
         position: fixed;
